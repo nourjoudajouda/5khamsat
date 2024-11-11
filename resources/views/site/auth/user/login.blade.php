@@ -4,7 +4,8 @@
 @section('css')
 @endsection
 @section('content')
-<div style="background-image: url('{{asset('public/site/assets/images/bg_sign_user.png')}}'); background-size:cover; height:550px;">
+    <div
+        style="background-image: url('{{ asset('site/assets/images/bg_sign_user.png') }}'); background-size:cover; height:550px;">
         <div class=" con_steps p-5">
             <section class="wizard-section">
                 <div class="row no-gutters">
@@ -40,20 +41,20 @@
                                                     <a href="#">Forget Password?</a>
                                                 </div>
                                             </div>
-                                            
-                                          
+
+
 
                                             <div class="form-group clearfix mt-5">
                                                 <a href="" class="form-wizard-previous-btn float-right">Login</a>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 text-center d_media">
-                                            <img src="{{asset('public/site/assets/images/mobile.png')}}" alt="" />
+                                            <img src="{{ asset('site/assets/images/mobile.png') }}" alt="" />
                                         </div>
                                     </div>
                                 </fieldset>
-                        
-                              
+
+
                             </form>
                         </div>
                     </div>
@@ -61,7 +62,6 @@
             </section>
         </div>
     </div>
-
 @endsection
 @section('js')
 @endsection

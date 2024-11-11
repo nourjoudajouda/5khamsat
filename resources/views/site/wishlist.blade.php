@@ -15,7 +15,7 @@
                     <div class="block_wishlist">
                         <div class="row">
                             <div class="col-lg-2 col-xs-12">
-                                <img src="{{asset('public/site/assets/images/wishlist1.png')}}" alt="" width="100%" height="auto" />
+                                <img src="{{asset('site/assets/images/wishlist1.png')}}" alt="" width="100%" height="auto" />
                             </div>
                             <div class="col-lg-7 col-xs-12">
                                 <h6 class="mt-1">Home</h6>
@@ -36,7 +36,7 @@
                     <div class="block_wishlist">
                         <div class="row">
                             <div class="col-lg-2 col-xs-12">
-                                <img src="{{asset('public/site/assets/images/wishlist2.png')}}" alt="" width="100%" height="auto" />
+                                <img src="{{asset('site/assets/images/wishlist2.png')}}" alt="" width="100%" height="auto" />
                             </div>
                             <div class="col-lg-7 col-xs-12">
                                 <h6 class="mt-1">Home</h6>

@@ -4,7 +4,8 @@
 @section('css')
 @endsection
 @section('content')
-<div style="background-image: url('{{asset('public/site/assets/images/bg_sign_user.png')}}'); background-size:cover; height:550px;">
+    <div
+        style="background-image: url('{{ asset('site/assets/images/bg_sign_user.png') }}'); background-size:cover; height:550px;">
         <div class=" con_steps p-5">
             <section class="wizard-section">
                 <div class="row no-gutters">
@@ -41,13 +42,13 @@
                                                 </div>
                                             </div>
 
- 
+
                                             <div class="form-group clearfix mt-5">
                                                 <a href="javascript:;" class="form-wizard-next-btn float-right">Next</a>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 text-center d_media">
-                                            <img src="{{asset('public/site/assets/images/mobile.png')}}" alt="" />
+                                            <img src="{{ asset('site/assets/images/mobile.png') }}" alt="" />
                                         </div>
                                     </div>
                                 </fieldset>
@@ -70,8 +71,7 @@
                                                 <div class="wizard-form-error"></div>
                                             </div>
                                             <div class="form-group">
-                                                <input type="password" class="form-control wizard-required"
-                                                    id="password">
+                                                <input type="password" class="form-control wizard-required" id="password">
                                                 <label for="password" class="wizard-form-text-label">Password*</label>
                                                 <div class="wizard-form-error"></div>
                                             </div>
@@ -82,7 +82,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-6 text-center d_media">
-                                            <img src="{{asset('public/site/assets/images/mobile.png')}}" alt="" />
+                                            <img src="{{ asset('site/assets/images/mobile.png') }}" alt="" />
                                         </div>
                                     </div>
                                 </fieldset>
@@ -124,7 +124,6 @@
             </section>
         </div>
     </div>
-
 @endsection
 @section('js')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -132,5 +131,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
-    <script src="{{asset('public/site/assets/js/steps.js')}}"></script>
+    <script src="{{ asset('site/assets/js/steps.js') }}"></script>
 @endsection

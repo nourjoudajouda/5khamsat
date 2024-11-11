@@ -4,10 +4,10 @@
 @section('css')
 @endsection
 @section('content')
-<div class="container-fluid">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-xs-12 px-0">
-                <div class="cover_page" style="background-image: url('{{asset('public/site/assets/images/cover_page.png')}}');">
+                <div class="cover_page" style="background-image: url('{{ asset('site/assets/images/cover_page.png') }}');">
                     <div class="rgba_cover">
                         <h3>Start selling on fives and keep your products in every home !</h3>
                     </div>
@@ -76,7 +76,7 @@
                     <small class="text-end">Know More</small>
                 </div>
                 <div class="col-lg-6 col-xs-6 text-center d_media">
-                    <img src="{{asset('public/site/assets/images/img-th-section.png')}}" alt="" />
+                    <img src="{{ asset('site/assets/images/img-th-section.png') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -178,14 +178,14 @@
                     <button class="btn btn_site">Subscribe now</button>
                 </div>
                 <div class="col-lg-6 col-xs-6 text-center d_media">
-                    <img src="{{asset('public/site/assets/images/sub.png')}}" alt="" />
+                    <img src="{{ asset('site/assets/images/sub.png') }}" alt="" />
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container-fluid s-section text-center pt-5">
-        <img src="{{asset('public/site/assets/images/image10.png')}}" class="img10_media" alt="" />
+        <img src="{{ asset('site/assets/images/image10.png') }}" class="img10_media" alt="" />
         <div class="row p-0 m-0" style="width:100%">
             <div class="bg_nav">
                 <ul class="nav">
@@ -198,15 +198,15 @@
                             href="#">System Point</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-secondary " id="album-tab" data-bs-toggle="tab"
-                            data-bs-target="#album" href="#">Shipping & Returns</a>
+                        <a class="nav-link link-secondary " id="album-tab" data-bs-toggle="tab" data-bs-target="#album"
+                            href="#">Shipping & Returns</a>
                     </li>
                 </ul>
             </div>
             <div class="tab-content" id="tabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <div class="card border-0">
-                     
+
                         <div class="card-body mb-3">
                             <div class="flex flex-column mb-5 mt-4 faq-section">
                                 <div class="row">
@@ -221,10 +221,11 @@
                                                         </a>
                                                     </h5>
                                                 </div>
-                                                <div id="collapse-1" class="collapse show" style="background: #f7f7f7;" data-parent="#accordion"
-                                                    aria-labelledby="heading-1">
+                                                <div id="collapse-1" class="collapse show" style="background: #f7f7f7;"
+                                                    data-parent="#accordion" aria-labelledby="heading-1">
                                                     <div class="card-body px-3">
-                                                        Your account will be activated for a training course in the course and focus within 24 hours.
+                                                        Your account will be activated for a training course in the course
+                                                        and focus within 24 hours.
                                                     </div>
                                                 </div>
                                             </div>
@@ -238,10 +239,11 @@
                                                         </a>
                                                     </h5>
                                                 </div>
-                                                <div id="collapse-2" class="collapse" style="background: #f7f7f7;" data-parent="#accordion"
-                                                    aria-labelledby="heading-2">
+                                                <div id="collapse-2" class="collapse" style="background: #f7f7f7;"
+                                                    data-parent="#accordion" aria-labelledby="heading-2">
                                                     <div class="card-body px-3">
-                                                        Your account will be activated for a training course in the course and focus within 24 hours.
+                                                        Your account will be activated for a training course in the course
+                                                        and focus within 24 hours.
 
                                                     </div>
                                                 </div>
@@ -256,10 +258,11 @@
                                                         </a>
                                                     </h5>
                                                 </div>
-                                                <div id="collapse-3" class="collapse" style="background: #f7f7f7;" data-parent="#accordion"
-                                                    aria-labelledby="heading-3">
+                                                <div id="collapse-3" class="collapse" style="background: #f7f7f7;"
+                                                    data-parent="#accordion" aria-labelledby="heading-3">
                                                     <div class="card-body px-3">
-                                                        Your account will be activated for a training course in the course and focus within 24 hours.
+                                                        Your account will be activated for a training course in the course
+                                                        and focus within 24 hours.
 
                                                     </div>
                                                 </div>
@@ -274,10 +277,11 @@
                                                         </a>
                                                     </h5>
                                                 </div>
-                                                <div id="collapse-4" class="collapse" style="background: #f7f7f7;" data-parent="#accordion"
-                                                    aria-labelledby="heading-4">
+                                                <div id="collapse-4" class="collapse" style="background: #f7f7f7;"
+                                                    data-parent="#accordion" aria-labelledby="heading-4">
                                                     <div class="card-body px-3">
-                                                        Your account will be activated for a training course in the course and focus within 24 hours.
+                                                        Your account will be activated for a training course in the course
+                                                        and focus within 24 hours.
 
                                                     </div>
                                                 </div>
@@ -292,10 +296,11 @@
                                                         </a>
                                                     </h5>
                                                 </div>
-                                                <div id="collapse-5" class="collapse" style="background: #f7f7f7;" data-parent="#accordion"
-                                                    aria-labelledby="heading-5">
+                                                <div id="collapse-5" class="collapse" style="background: #f7f7f7;"
+                                                    data-parent="#accordion" aria-labelledby="heading-5">
                                                     <div class="card-body px-3">
-                                                        Your account will be activated for a training course in the course and focus within 24 hours.
+                                                        Your account will be activated for a training course in the course
+                                                        and focus within 24 hours.
 
                                                     </div>
                                                 </div>
@@ -307,9 +312,9 @@
                             </div>
                         </div>
                     </div>
-          
+
                 </div>
-                
+
                 <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
                     2
                 </div>
@@ -322,4 +327,3 @@
 @endsection
 @section('js')
 @endsection
-

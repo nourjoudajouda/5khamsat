@@ -18,20 +18,20 @@
                         <div class="carousel-inner ">
                             <div class="carousel-item active ">
                                 <div class="box  d-flex justify-content-center align-items-center pt-5 pb-5">
-                                    <img src="{{asset('public/site/assets/images/Jaket 1 x4.png')}}" class="  img-fluid " style="max-width: 400px ; "
-                                        alt="...">
+                                    <img src="{{ asset('site/assets/images/Jaket 1 x4.png') }}" class="  img-fluid "
+                                        style="max-width: 400px ; " alt="...">
                                 </div>
                             </div>
                             <div class="carousel-item ">
                                 <div class="box d-flex justify-content-center align-items-center pt-5 pb-5">
-                                    <img src="{{asset('public/site/assets/images/Jaket 2 x4.png')}}" class="  img-fluid " style="max-width: 400px ; "
-                                        alt="...">
+                                    <img src="{{ asset('site/assets/images/Jaket 2 x4.png') }}" class="  img-fluid "
+                                        style="max-width: 400px ; " alt="...">
                                 </div>
                             </div>
                             <div class="carousel-item ">
                                 <div class="box d-flex justify-content-center align-items-center pt-5 pb-5">
-                                    <img src="{{asset('public/site/assets/images/Jaket 3 x4.png')}}" class="  img-fluid " style="max-width: 400px ; "
-                                        alt="...">
+                                    <img src="{{ asset('site/assets/images/Jaket 3 x4.png') }}" class="  img-fluid "
+                                        style="max-width: 400px ; " alt="...">
                                 </div>
                             </div>
                         </div>
@@ -40,16 +40,19 @@
                                 class="active first" aria-current="true" aria-label="Slide 1">
                                 <div class="price position-relative">
                                     <div class="position-relative"></div> <img class="d-block "
-                                        src="{{asset('public/site/assets/images/Jaket 1 1.png')}}" style="width:105px ; height: 105px;" alt="">
+                                        src="{{ asset('site/assets/images/Jaket 1 1.png') }}"
+                                        style="width:105px ; height: 105px;" alt="">
                                 </div>
                             </button>
                             <button type="" class="second" data-bs-target="#carouselExampleIndicators"
                                 data-bs-slide-to="1" aria-label="Slide 2">
-                                <div><img class="d-block" src="{{asset('public/site/assets/images/Jaket 2 1.png')}}" alt=""></div>
+                                <div><img class="d-block" src="{{ asset('site/assets/images/Jaket 2 1.png') }}"
+                                        alt=""></div>
                             </button>
                             <button type="" class="third" data-bs-target="#carouselExampleIndicators"
                                 data-bs-slide-to="2" aria-label="Slide 3">
-                                <div><img class="d-block" src="{{asset('public/site/assets/images/Jaket 3 1.png')}}" alt=""></div>
+                                <div><img class="d-block" src="{{ asset('site/assets/images/Jaket 3 1.png') }}"
+                                        alt=""></div>
                             </button>
                         </div>
                         <button class="carousel-control-prev justify-content-start" type=""
@@ -82,20 +85,20 @@
                         role="tab" aria-controls="pills-5" aria-selected="false">5</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="" id="pills-10-tab" data-bs-toggle="pill" data-bs-target="#pills-10" type="button"
-                        role="tab" aria-controls="pills-10" aria-selected="false">10</button>
+                    <button class="" id="pills-10-tab" data-bs-toggle="pill" data-bs-target="#pills-10"
+                        type="button" role="tab" aria-controls="pills-10" aria-selected="false">10</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="" id="pills-15-tab" data-bs-toggle="pill" data-bs-target="#pills-15" type="button"
-                        role="tab" aria-controls="pills-15" aria-selected="false">15</button>
+                    <button class="" id="pills-15-tab" data-bs-toggle="pill" data-bs-target="#pills-15"
+                        type="button" role="tab" aria-controls="pills-15" aria-selected="false">15</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="" id="pills-20-tab" data-bs-toggle="pill" data-bs-target="#pills-20" type="button"
-                        role="tab" aria-controls="pills-20" aria-selected="false">20</button>
+                    <button class="" id="pills-20-tab" data-bs-toggle="pill" data-bs-target="#pills-20"
+                        type="button" role="tab" aria-controls="pills-20" aria-selected="false">20</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="" id="pills-25-tab" data-bs-toggle="pill" data-bs-target="#pills-25" type="button"
-                        role="tab" aria-controls="pills-25" aria-selected="false">25</button>
+                    <button class="" id="pills-25-tab" data-bs-toggle="pill" data-bs-target="#pills-25"
+                        type="button" role="tab" aria-controls="pills-25" aria-selected="false">25</button>
                 </li>
             </ul>
         </div>
@@ -107,12 +110,13 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 1.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 1.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1"
-                                                data-summary="summary 1" data-price="10" data-quantity="1"
-                                                data-image="images/img_1.png')}}">Add to Cart <i
+                                            <button class="btn btn-danger my-cart-btn" data-id="1"
+                                                data-name="product 1" data-summary="summary 1" data-price="10"
+                                                data-quantity="1" data-image="images/img_1.png')}}">Add to Cart <i
                                                     class="fa-solid fa-cart-shopping"></i></button>
                                             <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
                                         </div>
@@ -130,8 +134,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -147,12 +151,13 @@
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
 
-                                        <img src="{{asset('public/site/assets/images/goods 2.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 2.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1"
-                                                data-summary="summary 1" data-price="10" data-quantity="1"
-                                                data-image="images/img_1.png')}}">Add to Cart <i
+                                            <button class="btn btn-danger my-cart-btn" data-id="1"
+                                                data-name="product 1" data-summary="summary 1" data-price="10"
+                                                data-quantity="1" data-image="images/img_1.png')}}">Add to Cart <i
                                                     class="fa-solid fa-cart-shopping"></i></button>
                                             <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
                                         </div>
@@ -170,8 +175,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -189,13 +194,14 @@
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
 
-                                        <img src="{{asset('public/site/assets/images/goods 3.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 3.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1"
-                                                data-summary="summary 1" data-price="10" data-quantity="1"
-                                                data-image="images/img_1.png')}}">Add to Cart <i
+                                            <button class="btn btn-danger my-cart-btn" data-id="1"
+                                                data-name="product 1" data-summary="summary 1" data-price="10"
+                                                data-quantity="1" data-image="images/img_1.png')}}">Add to Cart <i
                                                     class="fa-solid fa-cart-shopping"></i></button>
                                         </div>
                                     </div>
@@ -212,8 +218,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -228,53 +234,13 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 4.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 4.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1"
-                                                data-summary="summary 1" data-price="10" data-quantity="1"
-                                                data-image="images/img_1.png')}}">Add to Cart <i
-                                                    class="fa-solid fa-cart-shopping"></i></button>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 5.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1"
-                                                data-summary="summary 1" data-price="10" data-quantity="1"
-                                                data-image="images/img_1.png')}}">Add to Cart <i
+                                            <button class="btn btn-danger my-cart-btn" data-id="1"
+                                                data-name="product 1" data-summary="summary 1" data-price="10"
+                                                data-quantity="1" data-image="images/img_1.png')}}">Add to Cart <i
                                                     class="fa-solid fa-cart-shopping"></i></button>
                                             <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
                                         </div>
@@ -292,8 +258,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -305,15 +271,18 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="item">
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 6.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 5.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1"
-                                                data-summary="summary 1" data-price="10" data-quantity="1"
-                                                data-image="images/img_1.png')}}">Add to Cart <i
+                                            <button class="btn btn-danger my-cart-btn" data-id="1"
+                                                data-name="product 1" data-summary="summary 1" data-price="10"
+                                                data-quantity="1" data-image="images/img_1.png')}}">Add to Cart <i
                                                     class="fa-solid fa-cart-shopping"></i></button>
                                             <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
                                         </div>
@@ -331,8 +300,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -344,17 +313,16 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 7.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 6.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1"
-                                                data-summary="summary 1" data-price="10" data-quantity="1"
-                                                data-image="images/img_1.png')}}">Add to Cart <i
+                                            <button class="btn btn-danger my-cart-btn" data-id="1"
+                                                data-name="product 1" data-summary="summary 1" data-price="10"
+                                                data-quantity="1" data-image="images/img_1.png')}}">Add to Cart <i
                                                     class="fa-solid fa-cart-shopping"></i></button>
                                             <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
                                         </div>
@@ -372,44 +340,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 8.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -426,10 +358,14 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 9.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 7.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <button class="btn btn-danger my-cart-btn" data-id="1"
+                                                data-name="product 1" data-summary="summary 1" data-price="10"
+                                                data-quantity="1" data-image="images/img_1.png')}}">Add to Cart <i
+                                                    class="fa-solid fa-cart-shopping"></i></button>
                                             <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
                                         </div>
                                     </div>
@@ -446,8 +382,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -462,7 +398,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 10.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 8.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -482,82 +419,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 11.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 12.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -574,7 +437,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 13.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 9.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -594,8 +458,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -610,7 +474,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 14.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 10.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -630,82 +495,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 15.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 16.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -722,7 +513,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 17.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 11.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -742,8 +534,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -758,7 +550,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 18.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 12.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -778,82 +571,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 19.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 20.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -870,7 +589,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 21.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 13.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -890,8 +610,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -906,7 +626,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 22.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 14.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -926,82 +647,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 23.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 24.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -1018,7 +665,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 25.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 15.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -1038,8 +686,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -1054,7 +702,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 26.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 16.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -1074,82 +723,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 27.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 28.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -1166,7 +741,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 29.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 17.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -1186,8 +762,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -1202,7 +778,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 30.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 18.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -1222,82 +799,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 31.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 32.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                        <div class="front">
-                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
-                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
-                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -1314,7 +817,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 33.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 19.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -1334,8 +838,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -1350,7 +854,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 34.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 20.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -1370,8 +875,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -1388,7 +893,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 35.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 21.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -1408,8 +914,8 @@
                                                 </li>
                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                 </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
                                                 <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                                 </li>
                                             </ul>
@@ -1424,7 +930,47 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 36.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 22.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 23.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                         <div class="front">
                                             <div class="text-end"><i class="fa-regular fa-heart"></i></div>
                                             <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
@@ -1452,7 +998,514 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 24.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 25.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 26.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 27.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 28.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 29.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 30.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 31.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 32.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 33.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 34.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 35.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 36.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                        <div class="front">
+                                            <div class="text-end"><i class="fa-regular fa-heart"></i></div>
+                                            <a href="">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                                            <a href="">VIEW PRODUCT <i class="fa-regular fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1468,7 +1521,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 1.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 1.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -1491,7 +1545,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1499,7 +1554,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 2.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 2.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -1522,71 +1578,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 3.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 4.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1596,7 +1589,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 5.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 3.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -1619,7 +1613,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1627,7 +1622,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 6.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 4.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -1650,71 +1646,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 7.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 8.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1724,7 +1657,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 9.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 5.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -1747,7 +1681,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1755,7 +1690,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 10.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 6.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -1778,71 +1714,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 11.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 12.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1852,7 +1725,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 13.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 7.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -1875,7 +1749,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1883,7 +1758,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 14.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 8.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -1906,71 +1782,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 15.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 16.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1980,7 +1793,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 17.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 9.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2003,7 +1817,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2011,7 +1826,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 18.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 10.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2034,71 +1850,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 19.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 20.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2108,7 +1861,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 21.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 11.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2131,7 +1885,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2139,7 +1894,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 22.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 12.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2162,71 +1918,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 23.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 24.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2236,7 +1929,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 25.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 13.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2259,7 +1953,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2267,7 +1962,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 26.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 14.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2290,71 +1986,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 27.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 28.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2364,7 +1997,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 29.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 15.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2387,7 +2021,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2395,7 +2030,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 30.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 16.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2418,71 +2054,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 31.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 32.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2492,7 +2065,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 33.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 17.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2515,7 +2089,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2523,7 +2098,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 34.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 18.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2546,7 +2122,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2556,7 +2133,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 35.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 19.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2579,7 +2157,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2587,7 +2166,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 36.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 20.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2610,7 +2190,552 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 21.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 22.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 23.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 24.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 25.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 26.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 27.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 28.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 29.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 30.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 31.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 32.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 33.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 34.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 35.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 36.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2627,7 +2752,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 1.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 1.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2650,7 +2776,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2658,7 +2785,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 2.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 2.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2681,71 +2809,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 3.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 4.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2755,7 +2820,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 5.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 3.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2778,7 +2844,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2786,7 +2853,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 6.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 4.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2809,71 +2877,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 7.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 8.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2883,7 +2888,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 9.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 5.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2906,7 +2912,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2914,7 +2921,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 10.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 6.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -2937,71 +2945,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 11.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 12.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3011,7 +2956,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 13.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 7.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3034,7 +2980,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3042,7 +2989,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 14.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 8.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3065,71 +3013,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 15.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 16.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3139,7 +3024,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 17.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 9.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3162,7 +3048,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3170,7 +3057,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 18.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 10.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3193,71 +3081,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 19.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 20.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3267,7 +3092,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 21.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 11.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3290,7 +3116,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3298,7 +3125,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 22.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 12.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3321,71 +3149,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 23.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 24.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3395,7 +3160,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 25.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 13.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3418,7 +3184,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3426,7 +3193,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 26.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 14.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3449,71 +3217,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 27.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 28.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3523,7 +3228,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 29.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 15.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3546,7 +3252,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3554,7 +3261,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 30.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 16.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3577,71 +3285,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 31.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 32.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3651,7 +3296,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 33.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 17.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3674,7 +3320,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3682,7 +3329,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 34.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 18.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3705,7 +3353,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3715,7 +3364,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 35.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 19.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3738,7 +3388,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3746,7 +3397,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 36.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 20.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3769,7 +3421,552 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 21.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 22.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 23.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 24.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 25.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 26.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 27.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 28.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 29.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 30.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 31.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 32.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 33.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 34.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 35.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 36.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3786,7 +3983,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 1.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 1.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3809,7 +4007,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3817,7 +4016,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 2.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 2.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3840,71 +4040,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 3.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 4.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3914,7 +4051,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 5.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 3.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3937,7 +4075,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -3945,7 +4084,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 6.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 4.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -3968,71 +4108,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 7.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 8.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4042,7 +4119,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 9.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 5.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4065,7 +4143,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4073,7 +4152,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 10.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 6.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4096,71 +4176,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 11.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 12.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4170,7 +4187,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 13.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 7.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4193,7 +4211,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4201,7 +4220,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 14.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 8.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4224,71 +4244,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 15.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 16.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4298,7 +4255,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 17.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 9.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4321,7 +4279,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4329,7 +4288,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 18.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 10.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4352,71 +4312,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 19.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 20.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4426,7 +4323,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 21.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 11.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4449,7 +4347,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4457,7 +4356,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 22.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 12.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4480,71 +4380,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 23.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 24.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4554,7 +4391,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 25.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 13.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4577,7 +4415,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4585,7 +4424,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 26.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 14.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4608,71 +4448,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 27.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 28.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4682,7 +4459,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 29.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 15.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4705,7 +4483,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4713,7 +4492,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 30.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 16.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4736,71 +4516,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 31.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 32.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4810,7 +4527,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 33.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 17.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4833,7 +4551,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4841,7 +4560,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 34.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 18.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4864,7 +4584,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4874,7 +4595,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 35.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 19.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4897,7 +4619,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4905,7 +4628,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 36.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 20.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4928,7 +4652,552 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 21.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 22.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 23.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 24.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 25.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 26.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 27.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 28.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 29.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 30.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 31.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 32.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 33.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 34.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 35.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 36.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4945,7 +5214,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 1.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 1.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4968,7 +5238,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4976,7 +5247,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 2.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 2.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -4999,71 +5271,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 3.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 4.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5073,7 +5282,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 5.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 3.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5096,7 +5306,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5104,7 +5315,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 6.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 4.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5127,71 +5339,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 7.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 8.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5201,7 +5350,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 9.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 5.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5224,7 +5374,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5232,7 +5383,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 10.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 6.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5255,71 +5407,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 11.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 12.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5329,7 +5418,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 13.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 7.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5352,7 +5442,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5360,7 +5451,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 14.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 8.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5383,71 +5475,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 15.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 16.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5457,7 +5486,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 17.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 9.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5480,7 +5510,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5488,7 +5519,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 18.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 10.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5511,71 +5543,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 19.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 20.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5585,7 +5554,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 21.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 11.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5608,7 +5578,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5616,7 +5587,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 22.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 12.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5639,71 +5611,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 23.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 24.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5713,7 +5622,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 25.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 13.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5736,7 +5646,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5744,7 +5655,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 26.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 14.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5767,71 +5679,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 27.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 28.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5841,7 +5690,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 29.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 15.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5864,7 +5714,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5872,7 +5723,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 30.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 16.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5895,71 +5747,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 31.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 32.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -5969,7 +5758,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 33.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 17.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -5992,7 +5782,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6000,7 +5791,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 34.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 18.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6023,7 +5815,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6033,7 +5826,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 35.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 19.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6056,7 +5850,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6064,7 +5859,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 36.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 20.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6087,7 +5883,552 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 21.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 22.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 23.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 24.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 25.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 26.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 27.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 28.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 29.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 30.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 31.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 32.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 33.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 34.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 35.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 36.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6104,7 +6445,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 1.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 1.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6127,7 +6469,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6135,7 +6478,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 2.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 2.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6158,71 +6502,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 3.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 4.png')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6232,7 +6513,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 5.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 3.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6255,7 +6537,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6263,7 +6546,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 6.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 4.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6286,71 +6570,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 7.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 8.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6360,7 +6581,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 9.png')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 5.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6383,7 +6605,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6391,7 +6614,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 10.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 6.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6414,71 +6638,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 11.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 12.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6488,7 +6649,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 13.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 7.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6511,7 +6673,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6519,7 +6682,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 14.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 8.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6542,71 +6706,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 15.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 16.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6616,7 +6717,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 17.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 9.png') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6639,7 +6741,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6647,7 +6750,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 18.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 10.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6670,71 +6774,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 19.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 20.webp')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6744,7 +6785,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 21.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 11.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6767,7 +6809,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6775,7 +6818,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 22.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 12.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6798,71 +6842,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 23.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 24.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6872,7 +6853,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 25.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 13.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6895,7 +6877,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -6903,7 +6886,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 26.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 14.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -6926,71 +6910,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 27.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 28.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -7000,7 +6921,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 29.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 15.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -7023,7 +6945,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -7031,7 +6954,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 30.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 16.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -7054,71 +6978,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 31.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" product">
-                                <div class="thumb-wrapper ">
-                                    <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 32.jpg')}}" class=" m-0" style="width:164px ;" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <a href="" class="type">Women</a>
-                                        <a href="">
-                                            <h4>Flower Flanner Check Jacke</h4>
-                                        </a>
-                                        <div class="star-rating">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i>
-                                                </li>
-                                                <li class="list-inline-item"><i
-                                                        class="fa-solid fa-star-half-stroke"></i></li>
-                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="price">
-                                            <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -7128,7 +6989,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 33.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 17.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -7151,7 +7013,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -7159,7 +7022,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 34.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 18.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -7182,7 +7046,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -7192,7 +7057,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 35.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 19.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -7215,7 +7081,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -7223,7 +7090,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/goods 36.jpg')}}" class=" m-0" style="width:164px ;" alt="">
+                                        <img src="{{ asset('site/assets/images/goods 20.webp') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
                                     </div>
                                     <div class="thumb-content">
                                         <a href="" class="type">Women</a>
@@ -7246,7 +7114,552 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30 </p>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 21.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 22.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 23.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 24.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 25.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 26.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 27.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 28.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 29.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 30.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 31.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 32.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 33.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 34.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 35.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" product">
+                                <div class="thumb-wrapper ">
+                                    <div class="img-box">
+                                        <img src="{{ asset('site/assets/images/goods 36.jpg') }}" class=" m-0"
+                                            style="width:164px ;" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <a href="" class="type">Women</a>
+                                        <a href="">
+                                            <h4>Flower Flanner Check Jacke</h4>
+                                        </a>
+                                        <div class="star-rating">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i
+                                                        class="fa-solid fa-star-half-stroke"></i></li>
+                                                <li class="list-inline-item"><i class="fa-regular fa-star"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="price">
+                                            <p class="item-price">$30 </p>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -7315,7 +7728,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0"  alt="">
+                                <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7327,8 +7740,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7345,7 +7757,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7357,8 +7769,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7375,7 +7786,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7387,8 +7798,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7405,7 +7815,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7417,8 +7827,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7435,7 +7844,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7447,8 +7856,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7465,7 +7873,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7477,8 +7885,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7495,7 +7902,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7507,8 +7914,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7525,7 +7931,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7537,8 +7943,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7555,7 +7960,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7567,8 +7972,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7585,7 +7989,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7597,8 +8001,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7615,7 +8018,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7627,8 +8030,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7645,7 +8047,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7657,8 +8059,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7675,7 +8076,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7687,8 +8088,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7705,7 +8105,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7717,8 +8117,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7735,7 +8134,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7747,8 +8146,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7765,7 +8163,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7777,8 +8175,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7795,7 +8192,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7807,8 +8204,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7825,7 +8221,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7837,8 +8233,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7855,7 +8250,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7867,8 +8262,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7885,7 +8279,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7897,8 +8291,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7915,7 +8308,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7927,8 +8320,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7945,7 +8337,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7957,8 +8349,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -7975,7 +8366,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -7987,8 +8378,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -8005,7 +8395,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -8017,8 +8407,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -8035,7 +8424,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -8047,8 +8436,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -8065,7 +8453,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -8077,8 +8465,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -8095,7 +8482,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -8107,8 +8494,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -8125,7 +8511,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -8137,8 +8523,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -8155,7 +8540,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -8167,8 +8552,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -8185,7 +8569,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -8197,8 +8581,7 @@
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        <li class="list-inline-item"><i
-                                                class="fa-solid fa-star-half-stroke"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i></li>
                                         <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                         </li>
                                     </ul>
@@ -8238,20 +8621,23 @@
             <ul class="nav nav-pills " id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="active" id="pills-accessories-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-accessories" type="button" role="tab" aria-controls="pills-accessories"
-                        aria-selected="true">Accessories</button>
+                        data-bs-target="#pills-accessories" type="button" role="tab"
+                        aria-controls="pills-accessories" aria-selected="true">Accessories</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="" id="pills-pajamas-tab" data-bs-toggle="pill" data-bs-target="#pills-pajamas"
-                        type="button" role="tab" aria-controls="pills-pajamas" aria-selected="false">pajamas</button>
+                    <button class="" id="pills-pajamas-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-pajamas" type="button" role="tab" aria-controls="pills-pajamas"
+                        aria-selected="false">pajamas</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="" id="pills-jewelry-tab" data-bs-toggle="pill" data-bs-target="#pills-jewelry"
-                        type="button" role="tab" aria-controls="pills-jewelry" aria-selected="false">jewelry</button>
+                    <button class="" id="pills-jewelry-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-jewelry" type="button" role="tab" aria-controls="pills-jewelry"
+                        aria-selected="false">jewelry</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="" id="pills-tshirts-tab" data-bs-toggle="pill" data-bs-target="#pills-tshirts"
-                        type="button" role="tab" aria-controls="pills-tshirts" aria-selected="false">T-shirts</button>
+                    <button class="" id="pills-tshirts-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-tshirts" type="button" role="tab" aria-controls="pills-tshirts"
+                        aria-selected="false">T-shirts</button>
                 </li>
             </ul>
         </div>
@@ -8264,7 +8650,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0"  alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8284,7 +8671,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8294,7 +8682,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8314,7 +8703,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8324,7 +8714,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8344,7 +8735,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8354,7 +8746,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8374,7 +8767,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8384,7 +8778,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8404,7 +8799,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8414,7 +8810,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8434,7 +8831,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8444,7 +8842,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8464,7 +8863,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8474,7 +8874,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8494,7 +8895,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8504,7 +8906,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8524,7 +8927,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8534,7 +8938,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8554,7 +8959,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8564,7 +8970,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8584,7 +8991,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8594,7 +9002,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8614,7 +9023,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8624,7 +9034,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8644,7 +9055,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8654,7 +9066,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8674,7 +9087,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8684,7 +9098,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8704,7 +9119,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8714,7 +9130,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8734,7 +9151,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8744,7 +9162,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8764,7 +9183,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8774,7 +9194,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8794,7 +9215,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8804,7 +9226,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8824,7 +9247,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8834,7 +9258,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8854,7 +9279,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8864,7 +9290,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8884,7 +9311,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8894,7 +9322,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8914,7 +9343,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8924,7 +9354,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8944,7 +9375,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8954,7 +9386,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -8974,7 +9407,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -8984,7 +9418,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9004,7 +9439,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9014,7 +9450,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9034,7 +9471,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9044,7 +9482,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9064,7 +9503,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9074,7 +9514,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9094,7 +9535,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9104,7 +9546,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9124,7 +9567,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9134,7 +9578,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9154,7 +9599,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9170,7 +9616,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0"  alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9190,7 +9637,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9200,7 +9648,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9220,7 +9669,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9230,7 +9680,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9250,7 +9701,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9260,7 +9712,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9280,7 +9733,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9290,7 +9744,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9310,7 +9765,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9320,7 +9776,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9340,7 +9797,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9350,7 +9808,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9370,7 +9829,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9380,7 +9840,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9400,7 +9861,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9410,7 +9872,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9430,7 +9893,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9440,7 +9904,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9460,7 +9925,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9470,7 +9936,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9490,7 +9957,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9500,7 +9968,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9520,7 +9989,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9530,7 +10000,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9550,7 +10021,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9560,7 +10032,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9580,7 +10053,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9590,7 +10064,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9610,7 +10085,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9620,7 +10096,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9640,7 +10117,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9650,7 +10128,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9670,7 +10149,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9680,7 +10160,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9700,7 +10181,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9710,7 +10192,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9730,7 +10213,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9740,7 +10224,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9760,7 +10245,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9770,7 +10256,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9790,7 +10277,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9800,7 +10288,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9820,7 +10309,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9830,7 +10320,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9850,7 +10341,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9860,7 +10352,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9880,7 +10373,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9890,7 +10384,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9910,7 +10405,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9920,7 +10416,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9940,7 +10437,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9950,7 +10448,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -9970,7 +10469,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -9980,7 +10480,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10000,7 +10501,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10010,7 +10512,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10030,7 +10533,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10040,7 +10544,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10060,7 +10565,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10076,7 +10582,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0"  alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10096,7 +10603,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10106,7 +10614,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10126,7 +10635,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10136,7 +10646,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10156,7 +10667,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10166,7 +10678,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10186,7 +10699,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10196,7 +10710,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10216,7 +10731,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10226,7 +10742,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10246,7 +10763,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10256,7 +10774,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10276,7 +10795,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10286,7 +10806,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10306,7 +10827,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10316,7 +10838,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10336,7 +10859,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10346,7 +10870,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10366,7 +10891,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10376,7 +10902,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10396,7 +10923,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10406,7 +10934,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10426,7 +10955,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10436,7 +10966,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10456,7 +10987,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10466,7 +10998,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10486,7 +11019,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10496,7 +11030,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10516,7 +11051,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10526,7 +11062,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10546,7 +11083,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10556,7 +11094,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10576,7 +11115,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10586,7 +11126,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10606,7 +11147,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10616,7 +11158,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10636,7 +11179,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10646,7 +11190,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10666,7 +11211,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10676,7 +11222,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10696,7 +11243,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10706,7 +11254,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10726,7 +11275,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10736,7 +11286,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10756,7 +11307,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10766,7 +11318,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10786,7 +11339,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10796,7 +11350,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10816,7 +11371,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10826,7 +11382,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10846,7 +11403,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10856,7 +11414,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10876,7 +11435,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10886,7 +11446,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10906,7 +11467,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10916,7 +11478,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10936,7 +11499,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10946,7 +11510,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -10966,7 +11531,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -10982,7 +11548,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0"  alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11002,7 +11569,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11012,7 +11580,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11032,7 +11601,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11042,7 +11612,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11062,7 +11633,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11072,7 +11644,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11092,7 +11665,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11102,7 +11676,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11122,7 +11697,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11132,7 +11708,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11152,7 +11729,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11162,7 +11740,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11182,7 +11761,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11192,7 +11772,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11212,7 +11793,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11222,7 +11804,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11242,7 +11825,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11252,7 +11836,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11272,7 +11857,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11282,7 +11868,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11302,7 +11889,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11312,7 +11900,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11332,7 +11921,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11342,7 +11932,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11362,7 +11953,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11372,7 +11964,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11392,7 +11985,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11402,7 +11996,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11422,7 +12017,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11432,7 +12028,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11452,7 +12049,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11462,7 +12060,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11482,7 +12081,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11492,7 +12092,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11512,7 +12113,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11522,7 +12124,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11542,7 +12145,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11552,7 +12156,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11572,7 +12177,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11582,7 +12188,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11602,7 +12209,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11612,7 +12220,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11632,7 +12241,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11642,7 +12252,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11662,7 +12273,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11672,7 +12284,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11692,7 +12305,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11702,7 +12316,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11722,7 +12337,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11732,7 +12348,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11752,7 +12369,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11762,7 +12380,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11782,7 +12401,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11792,7 +12412,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11812,7 +12433,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11822,7 +12444,8 @@
                             <div class="product">
                                 <div class="thumb-wrapper ">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11842,7 +12465,8 @@
                                         </div>
                                         <div class="price ">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11852,7 +12476,8 @@
                             <div class=" product">
                                 <div class="thumb-wrapper">
                                     <div class="img-box">
-                                        <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                        <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                            alt="">
                                     </div>
                                     <div class="thumb-content ">
                                         <a href="" class="type">Women</a>
@@ -11872,7 +12497,8 @@
                                         </div>
                                         <div class="price">
                                             <p class="item-price">$30</p> <strike> $50</strike>
-                                            <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="#" class=""><i
+                                                    class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -11901,7 +12527,8 @@
                         <div class="product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0"  alt="">
+                                    <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -11913,15 +12540,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -11931,7 +12559,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -11943,15 +12572,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -11961,7 +12591,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -11973,15 +12604,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -11991,7 +12623,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12003,15 +12636,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price ">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12021,7 +12655,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12033,15 +12668,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12051,7 +12687,8 @@
                         <div class="product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12063,15 +12700,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12081,7 +12719,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12093,15 +12732,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12111,7 +12751,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12123,15 +12764,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12141,7 +12783,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12153,15 +12796,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price ">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12171,7 +12815,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12183,15 +12828,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12201,7 +12847,8 @@
                         <div class="product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12213,15 +12860,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12231,7 +12879,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12243,15 +12892,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12261,7 +12911,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12273,15 +12924,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12291,7 +12943,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12303,15 +12956,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price ">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12321,7 +12975,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12333,15 +12988,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12351,7 +13007,8 @@
                         <div class="product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12363,15 +13020,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12381,7 +13039,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12393,15 +13052,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12411,7 +13071,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12423,15 +13084,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12441,7 +13103,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12453,15 +13116,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price ">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12471,7 +13135,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12483,15 +13148,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12501,7 +13167,8 @@
                         <div class="product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12513,15 +13180,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12531,7 +13199,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12543,15 +13212,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12561,7 +13231,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12573,15 +13244,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12591,7 +13263,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12603,15 +13276,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price ">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12621,7 +13295,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12633,15 +13308,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12651,7 +13327,8 @@
                         <div class="product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t1.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12663,15 +13340,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12681,7 +13359,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t2.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12693,15 +13372,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12711,7 +13391,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t3.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12723,15 +13404,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12741,7 +13423,8 @@
                         <div class="product">
                             <div class="thumb-wrapper ">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t4.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12753,15 +13436,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price ">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -12771,7 +13455,8 @@
                         <div class=" product">
                             <div class="thumb-wrapper">
                                 <div class="img-box">
-                                    <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                    <img src="{{ asset('site/assets/images/t5.png') }}" class=" m-0"
+                                        alt="">
                                 </div>
                                 <div class="thumb-content ">
                                     <a href="" class="type">Women</a>
@@ -12783,15 +13468,16 @@
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                             <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i
-                                                    class="fa-solid fa-star-half-stroke"></i></li>
+                                            <li class="list-inline-item"><i class="fa-solid fa-star-half-stroke"></i>
+                                            </li>
                                             <li class="list-inline-item"><i class="fa-regular fa-star"></i>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="price">
                                         <p class="item-price">$30</p> <strike> $50</strike>
-                                        <a href="#" class=""><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class=""><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>

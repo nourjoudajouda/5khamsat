@@ -9,63 +9,63 @@
     <div class="row">
         <div class="col-lg-3 col-12">
             <div class="side_bar p-10">
-                <img src="{{asset('public/site/assets/images/image 4.png')}}" alt="" />
+                <img src="{{asset('site/assets/images/image 4.png')}}" alt="" />
                 <h3 class="pb-3">Hello hend !</h3>
                 <div id="accordion">
                     <ul class="nav nav-tabs tabs-left sideways">
                         <li class="active pb-3">
                             <a href="#home-v" data-toggle="tab">
-                                <img src="{{asset('public/site/assets/images/Orders.png')}}" class="images-side-bar" alt="" />
+                                <img src="{{asset('site/assets/images/Orders.png')}}" class="images-side-bar" alt="" />
                                 Orders
 
                             </a>
                         </li>
                         <li class="pb-3">
                             <a href="#profile-v" data-toggle="tab">
-                                <img src="{{asset('public/site/assets/images/Addresses.png')}}" class="images-side-bar" alt="" />
+                                <img src="{{asset('site/assets/images/Addresses.png')}}" class="images-side-bar" alt="" />
                                 Addresses
                             </a>
                         </li>
                         <li class="pb-3">
                             <a href="#balance" data-toggle="tab">
-                                <img src="{{asset('public/site/assets/images/balance.png')}}" class="images-side-bar" alt="" />
+                                <img src="{{asset('site/assets/images/balance.png')}}" class="images-side-bar" alt="" />
                                 Balance
                             </a>
                         </li>
                         <li class="pb-3">
                             <a href="#return" data-toggle="tab">
-                                <img src="{{asset('public/site/assets/images/return.png')}}" class="images-side-bar" alt="" />
+                                <img src="{{asset('site/assets/images/return.png')}}" class="images-side-bar" alt="" />
                                 Return Policy
                             </a>
                         </li>
                         <li class="pb-3">
                             <a href="#gift" data-toggle="tab">
-                                <img src="{{asset('public/site/assets/images/Vector.png')}}" class="images-side-bar" alt="" />
+                                <img src="{{asset('site/assets/images/Vector.png')}}" class="images-side-bar" alt="" />
                                 Gifts
                             </a>
                         </li>
                         <li class="pb-3">
                             <a href="#coupons" data-toggle="tab">
-                                <img src="{{asset('public/site/assets/images/Coupons.png')}}" class="mx-0 images-side-bar" alt="" />
+                                <img src="{{asset('site/assets/images/Coupons.png')}}" class="mx-0 images-side-bar" alt="" />
                                 Coupons
                             </a>
                         </li>
                         <li class="pb-3">
                             <a href="#points" data-toggle="tab">
-                                <img src="{{asset('public/site/assets/images/points.png')}}" class="images-side-bar" alt="" />
+                                <img src="{{asset('site/assets/images/points.png')}}" class="images-side-bar" alt="" />
                                 Points
                             </a>
                         </li>
                         <div class="c-line-center c-theme-bg mb-4"></div>
                         <li class="pb-3">
                             <a href="#Profile" data-toggle="tab">
-                                <img src="{{asset('public/site/assets/images/image 7.png')}}" class="images-side-bar" alt="" />
+                                <img src="{{asset('site/assets/images/image 7.png')}}" class="images-side-bar" alt="" />
                                 Profile
                             </a>
                         </li>
                         <li class="pb-3">
                             <a href="#Logout" data-toggle="tab">
-                                <img src="{{asset('public/site/assets/images/image 8.png')}}" class="images-side-bar" alt="" />
+                                <img src="{{asset('site/assets/images/image 8.png')}}" class="images-side-bar" alt="" />
                                 Logout
                             </a>
                         </li>
@@ -98,7 +98,7 @@
                         <div class="col-lg-3 col-paginate-orders">
                             <!-- Pagination -->
                             <a>
-                                <img src="{{asset('public/site/assets/images/download.png')}}" alt="" />
+                                <img src="{{asset('site/assets/images/download.png')}}" alt="" />
                             </a>
                         </div>
                     </div>
@@ -116,55 +116,55 @@
                                 <td>#025554</td>
                                 <td>20/1/2022</td>
                                 <td>
-                                    <img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
+                                    <img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
                                     Flanner
                                 </td>
-                                <td><img src="{{asset('public/site/assets/images/view.png')}}" onclick="show_details_order()" alt="" />Underway</td>
+                                <td><img src="{{asset('site/assets/images/view.png')}}" onclick="show_details_order()" alt="" />Underway</td>
                             </tr>
                             <tr>
                                 <td>#025554</td>
                                 <td>20/1/2022</td>
                                 <td>
-                                    <img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
+                                    <img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
                                     Flanner
                                 </td>
-                                <td><img src="{{asset('public/site/assets/images/view.png')}}" alt="" />Underway</td>
+                                <td><img src="{{asset('site/assets/images/view.png')}}" alt="" />Underway</td>
                             </tr>
                             <tr>
                                 <td>#025554</td>
                                 <td>20/1/2022</td>
                                 <td>
-                                    <img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
+                                    <img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
                                     Flanner
                                 </td>
-                                <td><img src="{{asset('public/site/assets/images/view.png')}}" alt="" />Underway</td>
+                                <td><img src="{{asset('site/assets/images/view.png')}}" alt="" />Underway</td>
                             </tr>
                             <tr>
                                 <td>#025554</td>
                                 <td>20/1/2022</td>
                                 <td>
-                                    <img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
+                                    <img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
                                     Flanner
                                 </td>
-                                <td><img src="{{asset('public/site/assets/images/view.png')}}" alt="" />Underway</td>
+                                <td><img src="{{asset('site/assets/images/view.png')}}" alt="" />Underway</td>
                             </tr>
                             <tr>
                                 <td>#025554</td>
                                 <td>20/1/2022</td>
                                 <td>
-                                    <img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
+                                    <img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
                                     Flanner
                                 </td>
-                                <td><img src="{{asset('public/site/assets/images/view.png')}}" alt="" />Underway</td>
+                                <td><img src="{{asset('site/assets/images/view.png')}}" alt="" />Underway</td>
                             </tr>
                             <tr>
                                 <td>#025554</td>
                                 <td>20/1/2022</td>
                                 <td>
-                                    <img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
+                                    <img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" />Flower
                                     Flanner
                                 </td>
-                                <td><img src="{{asset('public/site/assets/images/view.png')}}" alt="" />Underway</td>
+                                <td><img src="{{asset('site/assets/images/view.png')}}" alt="" />Underway</td>
                             </tr>
                         </tbody>
                     </table>
@@ -279,7 +279,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
+                                                <td><img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
                                                 <td>Flower Flanner</td>
                                                 <td>Flower Flanner Flower Flanner</td>
 
@@ -289,7 +289,7 @@
                                                 <td style="color: #E02626;font-weight: bold;">50.00 SAR</td>
                                             </tr>
                                             <tr>
-                                                <td><img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
+                                                <td><img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
                                                 <td>Flower Flanner</td>
                                                 <td>Flower Flanner Flower Flanner</td>
 
@@ -299,7 +299,7 @@
                                                 <td style="color: #E02626;font-weight: bold;">50.00 SAR</td>
                                             </tr>
                                             <tr>
-                                                <td><img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
+                                                <td><img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
                                                 <td>Flower Flanner</td>
                                                 <td>Flower Flanner Flower Flanner</td>
 
@@ -309,7 +309,7 @@
                                                 <td style="color: #E02626;font-weight: bold;">50.00 SAR</td>
                                             </tr>
                                             <tr>
-                                                <td><img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
+                                                <td><img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
                                                 <td>Flower Flanner</td>
                                                 <td>Flower Flanner Flower Flanner</td>
 
@@ -319,7 +319,7 @@
                                                 <td style="color: #E02626;font-weight: bold;">50.00 SAR</td>
                                             </tr>
                                             <tr>
-                                                <td><img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
+                                                <td><img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
                                                 <td>Flower Flanner</td>
                                                 <td>Flower Flanner Flower Flanner</td>
 
@@ -329,7 +329,7 @@
                                                 <td style="color: #E02626;font-weight: bold;">50.00 SAR</td>
                                             </tr>
                                             <tr>
-                                                <td><img src="{{asset('public/site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
+                                                <td><img src="{{asset('site/assets/images/pro_order.png')}}" height="50px" width="50px" alt="" /></td>
                                                 <td>Flower Flanner</td>
                                                 <td>Flower Flanner Flower Flanner</td>
 
@@ -343,7 +343,7 @@
                                     <hr>
                                     <div class="row row_delivery">
                                         <div class="col-lg-6 col-12 pt-3">
-                                            <img src="{{asset('public/site/assets/images/recived_time.png')}}" alt="" />
+                                            <img src="{{asset('site/assets/images/recived_time.png')}}" alt="" />
                                             <strong>Delivery time:</strong>
                                             <span>Delivered on Friday, Feb 12</span>
                                         </div>
@@ -368,7 +368,7 @@
                                 <h5>Paid by:</h5>
                             </div>
                             <div class="col-lg-10 col-8">
-                                <img src="{{asset('public/site/assets/images/Mada-01 1.png')}}" alt="" />
+                                <img src="{{asset('site/assets/images/Mada-01 1.png')}}" alt="" />
                             </div>
                         </div>
                         <div class="row row_addresses_details mt-3">
@@ -461,7 +461,7 @@
                                     <div class="block_address">
                                         <div class="row">
                                             <div class="col-lg-5 col-5">
-                                                <img src="{{asset('public/site/assets/images/addresses1.png')}}" alt="" />
+                                                <img src="{{asset('site/assets/images/addresses1.png')}}" alt="" />
                                             </div>
                                             <div class="col-lg-7 col-7">
                                                 <h6 class="m-0">Saudi Arabia</h6>
@@ -538,10 +538,10 @@
                         <div class="">
                             <ul class="nav bg-light">
                                 <li class="nav-item active">
-                                    <a class="nav-link link-black active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" href="#"><img src="{{asset('public/site/assets/images/wallet.png')}}" class="px-2" alt= />Balance</a>
+                                    <a class="nav-link link-black active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" href="#"><img src="{{asset('site/assets/images/wallet.png')}}" class="px-2" alt= />Balance</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link link-black" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" href="#"><img src="{{asset('public/site/assets/images/credit-card.png')}}" class="px-2" alt= />Cards</a>
+                                    <a class="nav-link link-black" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" href="#"><img src="{{asset('site/assets/images/credit-card.png')}}" class="px-2" alt= />Cards</a>
                                 </li>
 
                             </ul>
@@ -693,11 +693,11 @@
                                             <button class="btn btn_site" style="width:70%;height: 48px;" data-toggle="modal" data-target="#new_card"><i class="fa-solid fa-plus px-2"></i>Add New Card</button>
                                         </div>
                                         <div class="col-lg-6  mt-3 text-end col-ways-payments">
-                                            <img src="{{asset('public/site/assets/images/Mada.png')}}" alt="" />
-                                            <img src="{{asset('public/site/assets/images/ApplePay.png')}}" alt="" />
-                                            <img src="{{asset('public/site/assets/images/Paypal.png')}}" alt="" />
-                                            <img src="{{asset('public/site/assets/images/Mastercard.png')}}" alt="" />
-                                            <img src="{{asset('public/site/assets/images/Stripe.png')}}" alt="" />
+                                            <img src="{{asset('site/assets/images/Mada.png')}}" alt="" />
+                                            <img src="{{asset('site/assets/images/ApplePay.png')}}" alt="" />
+                                            <img src="{{asset('site/assets/images/Paypal.png')}}" alt="" />
+                                            <img src="{{asset('site/assets/images/Mastercard.png')}}" alt="" />
+                                            <img src="{{asset('site/assets/images/Stripe.png')}}" alt="" />
                                         </div>
                                     </div>
                                     <hr>
@@ -711,7 +711,7 @@
                                                         <small class="">5282 3456 7890 1289</small>
                                                     </div>
                                                     <div class="col-lg-5 col-4 text-center">
-                                                        <img src="{{asset('public/site/assets/images/Mastercard2.png')}}" class="d-block my-auto images_cards" alt="" />
+                                                        <img src="{{asset('site/assets/images/Mastercard2.png')}}" class="d-block my-auto images_cards" alt="" />
                                                         <small>25/1</small>
 
                                                     </div>
@@ -727,7 +727,7 @@
                                                         <small class="">5282 3456 7890 1289</small>
                                                     </div>
                                                     <div class="col-lg-5 col-4 text-center">
-                                                        <img src="{{asset('public/site/assets/images/Visa.png')}}" class="d-block my-auto images_cards" alt="" />
+                                                        <img src="{{asset('site/assets/images/Visa.png')}}" class="d-block my-auto images_cards" alt="" />
                                                         <small>25/1</small>
 
                                                     </div>
@@ -751,7 +751,7 @@
                                 with how their 'Personally identifiable information' (PII) is being used online.</p>
                         </div>
                         <div class="col-lg-5  col-12">
-                            <img src="{{asset('public/site/assets/images/policy.png')}}" alt="" />
+                            <img src="{{asset('site/assets/images/policy.png')}}" alt="" />
                         </div>
                         <div class="col-lg-12 col-12 mt-4">
                             <small>Updated Feb 7.2022</small>
@@ -786,7 +786,7 @@
 
                         <div class="col-lg-6  col-12" id="block-gift">
                             <div class="first_block_gift" onclick="show_first_block_gift()">
-                                <img src="{{asset('public/site/assets/images/f_gift.png')}}" alt="">
+                                <img src="{{asset('site/assets/images/f_gift.png')}}" alt="">
                                 <h4 class="fw-bold mt-2">Give</h4>
                                 <h6>Love is accessible to all, but charity is a test of the heart</h6>
                             </div>
@@ -794,7 +794,7 @@
 
                         <div class="col-lg-6 col-12" id="s-block-gift">
                             <div class="second_block_gift" onclick="show_second_block_gift()">
-                                <img src="{{asset('public/site/assets/images/s_gift.png')}}" alt="">
+                                <img src="{{asset('site/assets/images/s_gift.png')}}" alt="">
                                 <h4 class="fw-bold mt-2">Give to the one you love</h4>
                                 <h6>Express your love with a gift</h6>
                             </div>
@@ -802,7 +802,7 @@
 
                         <div class="col-lg-12" id="block-gift-form">
                             <div class="block-form-gift text-center">
-                                <img src="{{asset('public/site/assets/images/f_gift.png')}}" alt="">
+                                <img src="{{asset('site/assets/images/f_gift.png')}}" alt="">
 
                                 <h4 class="fw-bold mt-2">Give</h4>
                                 <h6>Love is accessible to all, but charity is a test of the heart</h6>
@@ -841,7 +841,7 @@
                         <div class="col-lg-12" id="s-block-gift-form">
 
                             <div class="block-form-gift text-center">
-                                <img src="{{asset('public/site/assets/images/gift_form.png')}}" alt="" />
+                                <img src="{{asset('site/assets/images/gift_form.png')}}" alt="" />
                                 <h4 class="fw-bold mt-2">Give to the one you love</h4>
                                 <h6>Express your love with a gift</h6>
                             </div>
@@ -915,7 +915,7 @@
                         <div class="items_cart mb-3">
                             <div class="row">
                                 <div class="col-lg-3 col-12 p-2">
-                                    <img src="{{asset('public/site/assets/images/image_card_coupon.png')}}" class="image_item_cart" alt="" />
+                                    <img src="{{asset('site/assets/images/image_card_coupon.png')}}" class="image_item_cart" alt="" />
                                 </div>
                                 <div class="col-lg-6 col-12 p-3">
                                     <h4>Coupon Description :</h4>
@@ -937,7 +937,7 @@
                         <div class="items_cart mb-3 ">
                             <div class="row">
                                 <div class="col-lg-3 col-12 p-2">
-                                    <img src="{{asset('public/site/assets/images/image_card_coupon.png')}}" class="image_item_cart" alt="" />
+                                    <img src="{{asset('site/assets/images/image_card_coupon.png')}}" class="image_item_cart" alt="" />
                                 </div>
                                 <div class="col-lg-6 col-12 p-3">
                                     <h4>Coupon Description :</h4>
@@ -1133,7 +1133,7 @@
             </div>
             <!-- <div class="row row_no_order">
                     <div class="col-lg-12">
-                        <img src="{{asset('public/site/assets/images/image 6.png')}}" alt=""/>
+                        <img src="{{asset('site/assets/images/image 6.png')}}" alt=""/>
                         <h6 class="mt-4">No section has been selected yet</h6>
                         <button class="btn mt-4">CONTINUE SHOPPING</button>
                     </div>
@@ -1149,11 +1149,11 @@
 
                 <div class="row mb-5 mt-3">
                     <div class="col-lg-12  mt-3 text-center">
-                        <img src="{{asset('public/site/assets/images/Mada.png')}}" alt="" />
-                        <img src="{{asset('public/site/assets/images/ApplePay.png')}}" alt="" />
-                        <img src="{{asset('public/site/assets/images/Paypal.png')}}" alt="" />
-                        <img src="{{asset('public/site/assets/images/Mastercard.png')}}" alt="" />
-                        <img src="{{asset('public/site/assets/images/Stripe.png')}}" alt="" />
+                        <img src="{{asset('site/assets/images/Mada.png')}}" alt="" />
+                        <img src="{{asset('site/assets/images/ApplePay.png')}}" alt="" />
+                        <img src="{{asset('site/assets/images/Paypal.png')}}" alt="" />
+                        <img src="{{asset('site/assets/images/Mastercard.png')}}" alt="" />
+                        <img src="{{asset('site/assets/images/Stripe.png')}}" alt="" />
                     </div>
                     <div class="col-lg-12">
                         <h3 class="text-center mt-4">Add New Card</h3>
@@ -1209,7 +1209,7 @@
 
             <div class="row mt-3">
                 <div class="col-lg-12  mt-3 text-center">
-                    <img src="{{asset('public/site/assets/images/change_password.png')}}" alt="" />
+                    <img src="{{asset('site/assets/images/change_password.png')}}" alt="" />
                 </div>
                 <div class="col-lg-12 text-center">
                     <h3 class="text-center mt-4">Change Password</h3>
@@ -1254,7 +1254,7 @@
 
             <div class="row mt-3">
                 <div class="col-lg-12  mt-3 text-center">
-                    <img src="{{asset('public/site/assets/images/s-points.png')}}" alt="" />
+                    <img src="{{asset('site/assets/images/s-points.png')}}" alt="" />
                 </div>
                 <div class="col-lg-12 text-center">
                     <h3 class="text-center mt-4">What are 5Khamsat points?</h3>

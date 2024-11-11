@@ -4,7 +4,7 @@
 @section('css')
 @endsection
 @section('content')
-<div class="container con_steps">
+    <div class="container con_steps">
         <div class="row">
             <div class="col-lg-12 col-xs-12">
                 <div class="plans">
@@ -14,7 +14,7 @@
                         <div class="plan-content">
                             <div class="plan-details">
                                 <span>Commercial Record</span>
-                            </div> 
+                            </div>
                         </div>
                     </label>
                 </div>
@@ -111,17 +111,16 @@
                                     <div class="wizard-form-error"></div>
                                 </div>
                                 <!-- <div class="form-group form-control">
-                                    <select class="selectpicker wizard-required" data-live-search="true" required>
-                                        <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
-                                        <option data-tokens="mustard">Burger, Shake and a Smile</option>
-                                        <option data-tokens="frosting">Sugar, Spice and all things nice</option>
-                                    </select>
-                                </div> -->
+                                        <select class="selectpicker wizard-required" data-live-search="true" required>
+                                            <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                                            <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                                            <option data-tokens="frosting">Sugar, Spice and all things nice</option>
+                                        </select>
+                                    </div> -->
 
 
                                 <div class="form-group">
-                                    <textarea type="text" rows="4" class="form-control wizard-required"
-                                        id="sdes"></textarea>
+                                    <textarea type="text" rows="4" class="form-control wizard-required" id="sdes"></textarea>
                                     <label for="sdes" class="wizard-form-text-label">Store Description*</label>
                                     <div class="wizard-form-error"></div>
                                 </div>
@@ -160,7 +159,8 @@
                                                 class="file-input__input" />
                                             <label class="file-input__label" for="file-input">
                                                 <img src="images/Frame.png">
-                                                <span class="text-dark">Commercial register, national ID copy, personal photo, IBAN photo</span></label>
+                                                <span class="text-dark">Commercial register, national ID copy, personal
+                                                    photo, IBAN photo</span></label>
                                         </div>
                                     </div>
                                 </div>
@@ -171,7 +171,7 @@
                             </fieldset>
                             <fieldset class="wizard-fieldset">
                                 <!-- <h5>Payment Information</h5> -->
-                               
+
                                 <div class="row row_steps" style="margin:auto">
                                     <div class="col-lg-6 p-0">
                                         <div class="form-group" style="width:100%">
@@ -212,9 +212,9 @@
                                             <div class="wizard-form-error"></div>
                                         </div>
                                     </div>
-                             
+
                                 </div>
-                               
+
                                 <div class="form-group clearfix">
                                     <a href="javascript:;" class="form-wizard-previous-btn float-left">Previous</a>
                                     <a href="javascript:;" class="form-wizard-submit float-right">Submit</a>
@@ -226,7 +226,6 @@
             </div>
         </section>
     </div>
-
 @endsection
 @section('js')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -234,5 +233,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
-    <script src="{{asset('public/site/assets/js/steps.js')}}"></script>
+    <script src="{{ asset('site/assets/js/steps.js') }}"></script>
 @endsection

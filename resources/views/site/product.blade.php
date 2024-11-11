@@ -25,13 +25,13 @@
         </div>
         <div class="row details-product mt-3">
             <div class="col-lg-4 col-12">
-                <img src="{{asset('public/site/assets/images/girl.png')}}" class="img-product" alt="" />
+                <img src="{{asset('site/assets/images/girl.png')}}" class="img-product" alt="" />
                 <div class="row mt-4">
                     <div class="col-lg-6 col-6">
-                        <img src="{{asset('public/site/assets/images/img-p.png')}}" class="imgs-product" alt="" />
+                        <img src="{{asset('site/assets/images/img-p.png')}}" class="imgs-product" alt="" />
                     </div>
                     <div class="col-lg-6 col-6">
-                        <img src="{{asset('public/site/assets/images/img-p-2.png')}}" class="imgs-product" alt="" />
+                        <img src="{{asset('site/assets/images/img-p-2.png')}}" class="imgs-product" alt="" />
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="row mt-4 mb-5">
                     <div class="col-lg-2">
-                        <img src="{{asset('public/site/assets/images/image_3.png')}}" alt="" />
+                        <img src="{{asset('site/assets/images/image_3.png')}}" alt="" />
                     </div>
                     <div class="col-lg-8">
                         <h5>Make 3 interest-free payments. Available
@@ -157,31 +157,31 @@
             <div class="col-lg-3 col-12 col-info border-left">
                 <div class="row">
                     <div class="col-lg-2 col-2">
-                        <img src="{{asset('public/site/assets/images/icon.png')}}" alt="">
+                        <img src="{{asset('site/assets/images/icon.png')}}" alt="">
                     </div>
                     <div class="col-lg-10 col-10 mt-2">
                        <h5>Purchase to <span>get 100</span> points</h5>
                     </div>
                     <div class="col-lg-2 col-2 mt-3">
-                        <img src="{{asset('public/site/assets/images/icon2.png')}}" alt="">
+                        <img src="{{asset('site/assets/images/icon2.png')}}" alt="">
                     </div>
                     <div class="col-lg-10 col-10 mt-2">  
                        <h5>Enjoy hassle free returns with this offer.<span>Learn more</span></h5>
                     </div>
                     <div class="col-lg-2 col-2 mt-3">
-                        <img src="{{asset('public/site/assets/images/warranty 1.png')}}" alt="">
+                        <img src="{{asset('site/assets/images/warranty 1.png')}}" alt="">
                     </div>
                     <div class="col-lg-10 col-10 mt-4">  
                        <h5>No warranty</h5>
                     </div>
                     <div class="col-lg-2 col-2 mt-3">
-                         <img src="{{asset('public/site/assets/images/seller 1.png')}}" alt="">
+                         <img src="{{asset('site/assets/images/seller 1.png')}}" alt="">
                     </div>
                     <div class="col-lg-10 col-10 mt-4">
                         <h5>Sold by:<span>Hend Talal</span></h5>
                     </div>
                     <div class="col-lg-2 col-2 mt-3">
-                        <img src="{{asset('public/site/assets/images/icon4.png')}}" alt="">
+                        <img src="{{asset('site/assets/images/icon4.png')}}" alt="">
                    </div>
                    <div class="col-lg-10 col-10 mt-4">
                        <h5>Our Shopping code : <span>9216132</span></h5>
@@ -233,7 +233,7 @@
 
                 <div class="row mt-4">
                     <div class="col-lg-2 col-2">
-                        <img src="{{asset('public/site/assets/images/secure_usp 1.png')}}" alt="">
+                        <img src="{{asset('site/assets/images/secure_usp 1.png')}}" alt="">
                     </div>
                     <div class="col-lg-10 col-10 mt-0">
                        <h5>SECURE SHOPPING</h5>
@@ -241,7 +241,7 @@
                     </div>
 
                     <div class="col-lg-2 col-2 mt-1">
-                        <img src="{{asset('public/site/assets/images/free_returns_usp 1.png')}}" alt="">
+                        <img src="{{asset('site/assets/images/free_returns_usp 1.png')}}" alt="">
                     </div>
                     <div class="col-lg-10 col-10 mt-2">  
                         <h5>FREE RETURNS</h5>
@@ -249,7 +249,7 @@
                     </div>
 
                     <div class="col-lg-2 col-2 mt-1">
-                        <img src="{{asset('public/site/assets/images/trusted_shipping_usp_v2 1.png')}}" alt="">
+                        <img src="{{asset('site/assets/images/trusted_shipping_usp_v2 1.png')}}" alt="">
                     </div>
                     <div class="col-lg-10 col-10 mt-2">  
                         <h5>TRUSTED SHIPPING</h5>
@@ -665,7 +665,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t1.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -694,7 +694,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t2.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -723,7 +723,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t3.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -752,7 +752,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t4.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -781,7 +781,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t5.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -810,7 +810,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t1.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -839,7 +839,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t2.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -868,7 +868,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t3.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -897,7 +897,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t4.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -926,7 +926,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t5.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -955,7 +955,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t1.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -984,7 +984,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t2.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1013,7 +1013,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t3.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1042,7 +1042,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t4.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1071,7 +1071,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t5.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1100,7 +1100,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t1.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1129,7 +1129,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t2.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1158,7 +1158,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t3.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1187,7 +1187,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t4.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1216,7 +1216,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t5.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1245,7 +1245,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t1.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1274,7 +1274,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t2.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1303,7 +1303,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t3.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1332,7 +1332,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t4.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1361,7 +1361,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t5.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1390,7 +1390,7 @@
                     <div class="product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t1.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t1.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1419,7 +1419,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t2.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t2.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1448,7 +1448,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t3.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t3.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1477,7 +1477,7 @@
                     <div class="product">
                         <div class="thumb-wrapper ">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t4.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t4.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>
@@ -1506,7 +1506,7 @@
                     <div class=" product">
                         <div class="thumb-wrapper">
                             <div class="img-box">
-                                <img src="{{asset('public/site/assets/images/t5.png')}}" class=" m-0" alt="">
+                                <img src="{{asset('site/assets/images/t5.png')}}" class=" m-0" alt="">
                             </div>
                             <div class="thumb-content ">
                                 <a href="" class="type">Women</a>

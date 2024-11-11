@@ -6,64 +6,77 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="description"
+        content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>{{__('common.login')}}</title>
-    <link rel="apple-touch-icon" href="{{asset('public/dashborad/app-assets/images/ico/apple-icon-120.png')}}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('public/dashborad/app-assets/images/ico/favicon.ico')}}">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+    <title>{{ __('common.login') }}</title>
+    <link rel="apple-touch-icon" href="{{ asset('dashborad/app-assets/images/ico/apple-icon-120.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('dashborad/app-assets/images/ico/favicon.ico') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+        rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/vendors/css/vendors-rtl.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/vendors/css/vendors-rtl.min.css') }}">
     <!-- END: Vendor CSS-->
-    @if(app()->getLocale()=='ar')
-    <!-- BEGIN: Theme CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/bootstrap.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/bootstrap-extended.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/colors.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/components.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/themes/dark-layout.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/themes/bordered-layout.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/themes/semi-dark-layout.css')}}">
-
-    <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/core/menu/menu-types/vertical-menu.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/plugins/forms/form-validation.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/pages/page-auth.css')}}">
-    <!-- END: Page CSS-->
-
-    <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css-rtl/custom-rtl.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/assets/css/style-rtl.css')}}">
-    <!-- END: Custom CSS-->
-    @endif
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
-    
-    @if(app()->getLocale()=='en')
+    @if (app()->getLocale() == 'ar')
         <!-- BEGIN: Theme CSS-->
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/bootstrap.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/bootstrap-extended.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/colors.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/components.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/themes/dark-layout.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/themes/bordered-layout.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/themes/semi-dark-layout.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css-rtl/bootstrap.css') }}">
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css-rtl/bootstrap-extended.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css-rtl/colors.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css-rtl/components.css') }}">
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css-rtl/themes/dark-layout.css') }}">
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css-rtl/themes/bordered-layout.css') }}">
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css-rtl/themes/semi-dark-layout.css') }}">
 
         <!-- BEGIN: Page CSS-->
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/core/menu/menu-types/vertical-menu.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/plugins/forms/form-validation.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/pages/page-auth.css')}}">
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css-rtl/core/menu/menu-types/vertical-menu.css') }}">
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css-rtl/plugins/forms/form-validation.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css-rtl/pages/page-auth.css') }}">
         <!-- END: Page CSS-->
 
         <!-- BEGIN: Custom CSS-->
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/app-assets/css/custom.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('public/dashborad/assets/css/style.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css-rtl/custom-rtl.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/assets/css/style-rtl.css') }}">
+        <!-- END: Custom CSS-->
+    @endif
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+
+    @if (app()->getLocale() == 'en')
+        <!-- BEGIN: Theme CSS-->
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css/bootstrap.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css/bootstrap-extended.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css/colors.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css/components.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css/themes/dark-layout.css') }}">
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css/themes/bordered-layout.css') }}">
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css/themes/semi-dark-layout.css') }}">
+
+        <!-- BEGIN: Page CSS-->
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css/core/menu/menu-types/vertical-menu.css') }}">
+        <link rel="stylesheet" type="text/css"
+            href="{{ asset('dashborad/app-assets/css/plugins/forms/form-validation.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css/pages/page-auth.css') }}">
+        <!-- END: Page CSS-->
+
+        <!-- BEGIN: Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/app-assets/css/custom.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('dashborad/assets/css/style.css') }}">
         <!-- END: Custom CSS-->
     @endif
 
     <style>
-        *{
+        * {
             font-family: 'Tajawal', sans-serif;
         }
     </style>
@@ -72,7 +85,8 @@
 
 <!-- BEGIN: Body-->
 
-<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
+<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="blank-page">
     <!-- BEGIN: Content-->
     <div class="app-content content ">
         <div class="content-overlay"></div>
@@ -107,60 +121,77 @@
                                     </g>
                                 </g>
                             </svg>     -->
-                            <img src="{{asset('/public/dashborad/app-assets/images/logo.png')}}" alt=""/>
-                                            </a>
+                            <img src="{{ asset('/dashborad/app-assets/images/logo.png') }}" alt="" />
+                        </a>
                         <!-- /Brand logo-->
                         <!-- Left Text-->
                         <div class="d-none d-lg-flex col-lg-8 align-items-center" style="padding:0px;">
-                            <div class="w-100 d-lg-flex align-items-center justify-content-center" style="height:100%">
-                                <img class="img-fluid" src="{{url('public/dashborad/app-assets/images/pages/login-v2.svg')}}" alt="Login V2" />
+                            <div class="w-100 d-lg-flex align-items-center justify-content-center"
+                                style="height:100%">
+                                <img class="img-fluid"
+                                    src="{{ url('dashborad/app-assets/images/pages/login-v2.svg') }}"
+                                    alt="Login V2" />
                             </div>
                         </div>
                         <!-- /Left Text-->
                         <!-- Login-->
                         <div class="d-flex col-lg-4 align-items-center auth-bg px-2 p-lg-5">
-                            
+
                             <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
-                            <!--@if(app()->getLocale() == 'en')-->
-                            <!--    <a href="{{ LaravelLocalization::getLocalizedURL('ar', null, [], true) }}" style="display:block; text-align: end;">العربية</a>-->
+                                <!--@if (app()->getLocale() == 'en')
+-->
+                                <!--    <a href="{{ LaravelLocalization::getLocalizedURL('ar', null, [], true) }}" style="display:block; text-align: end;">العربية</a>-->
                             <!--@else-->
-                            <!--    <a href="{{ LaravelLocalization::getLocalizedURL('en', null, [], true) }}" style="display:block; text-align: end;">English</a>-->
-                            <!--@endif-->
-                                <h2 class="card-title font-weight-bold mb-1"> {{__('common.login')}} 👋</h2>
+                                <!--    <a href="{{ LaravelLocalization::getLocalizedURL('en', null, [], true) }}" style="display:block; text-align: end;">English</a>-->
+                                <!--
+@endif-->
+                                <h2 class="card-title font-weight-bold mb-1"> {{ __('common.login') }} 👋</h2>
                                 <!-- <p class="card-text mb-2">الرجاء تسجيل الدخول إلى حسابك</p> -->
                                 <form class="auth-login-form mt-2" method="POST" action="{{ route('login') }}">
-                                {{ csrf_field() }}
+                                    {{ csrf_field() }}
                                     <div class="form-group">
-                                        <label class="form-label" for="login-email">{{__('common.email')}}</label>
-                                        <input class="form-control @error('email') is-invalid @enderror" id="login-email" name="email" type="text" placeholder="البريد الإلكتروني" aria-describedby="login-email" autofocus="" tabindex="1" />
+                                        <label class="form-label" for="login-email">{{ __('common.email') }}</label>
+                                        <input class="form-control @error('email') is-invalid @enderror"
+                                            id="login-email" name="email" type="text"
+                                            placeholder="البريد الإلكتروني" aria-describedby="login-email"
+                                            autofocus="" tabindex="1" />
                                         @error('email')
-                                        <span class="invalid-feedback" role="alert">
-                                              <strong>{{ $message }}</strong>
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
                                             </span>
                                         @enderror
                                     </div>
                                     <div class="form-group">
                                         <div class="d-flex justify-content-between">
-                                            <label for="login-password">{{__('common.password')}} </label>
+                                            <label for="login-password">{{ __('common.password') }} </label>
                                         </div>
                                         <div class="input-group input-group-merge form-password-toggle">
-                                            <input class="form-control form-control-merge @error('password') is-invalid @enderror" id="login-password" type="password" name="password" placeholder="············" aria-describedby="login-password" tabindex="2" />
-                                            <div class="input-group-append"><span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span></div>
+                                            <input
+                                                class="form-control form-control-merge @error('password') is-invalid @enderror"
+                                                id="login-password" type="password" name="password"
+                                                placeholder="············" aria-describedby="login-password"
+                                                tabindex="2" />
+                                            <div class="input-group-append"><span
+                                                    class="input-group-text cursor-pointer"><i
+                                                        data-feather="eye"></i></span></div>
                                             @error('password')
-                                            <span class="invalid-feedback" role="alert">
-                                              <strong>{{ $message }}</strong>
-                                            </span>
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
                                             @enderror
                                         </div>
                                     </div>
-    
+
                                     <div class="form-group">
                                         <div class="custom-control custom-checkbox">
-                                            <input class="custom-control-input" id="remember-me" type="checkbox" tabindex="3" />
-                                            <label class="custom-control-label" for="remember-me">{{__('common.remmber_me')}}</label>
+                                            <input class="custom-control-input" id="remember-me" type="checkbox"
+                                                tabindex="3" />
+                                            <label class="custom-control-label"
+                                                for="remember-me">{{ __('common.remmber_me') }}</label>
                                         </div>
                                     </div>
-                                    <button class="btn btn-primary btn-block" id="btn-bg" tabindex="4"> {{__('common.login')}}</button>
+                                    <button class="btn btn-primary btn-block" id="btn-bg" tabindex="4">
+                                        {{ __('common.login') }}</button>
                                 </form>
                                 <!-- <p class="text-center mt-2"><span>New on our platform?</span><a href="page-auth-register-v2.html"><span>&nbsp;Create an account</span></a></p> -->
                                 <!-- <div class="divider my-2">
@@ -177,51 +208,51 @@
     </div>
     <!-- END: Content-->
     <script type="module">
-    $(window).on('load', function () {
-        var $html = $('html');
-        setTimeout(function () {
-            if (localStorage.getItem('light-layout-current-skin') == 'dark-layout') {
-                $html.addClass("dark-layout");
-                $(".main-menu").addClass("menu-dark");
-                $(".header-navbar").addClass("navbar-dark");
-                console.log(localStorage.getItem('light-layout-current-skin') )
-                $html.removeClass("light-layout");
-                $('#logo_control_panel').html('<img src="" style="max-width: 50px;" alt="logo">')
+        $(window).on('load', function() {
+            var $html = $('html');
+            setTimeout(function() {
+                if (localStorage.getItem('light-layout-current-skin') == 'dark-layout') {
+                    $html.addClass("dark-layout");
+                    $(".main-menu").addClass("menu-dark");
+                    $(".header-navbar").addClass("navbar-dark");
+                    console.log(localStorage.getItem('light-layout-current-skin'))
+                    $html.removeClass("light-layout");
+                    $('#logo_control_panel').html('<img src="" style="max-width: 50px;" alt="logo">')
 
-            }
-        }, 1);
-        setTimeout(function () {
-            if (localStorage.getItem('light-layout-current-skin') == 'light-layout') {
-                $html.addClass("light-layout");
-                $(".main-menu").removeClass("menu-dark");
-                $(".main-menu").addClass("menu-light");
-                $(".header-navbar").addClass("navbar-light");
-                 console.log(localStorage.getItem('light-layout-current-skin') )
-                $html.removeClass("dark-layout");
-            }
-        }, 1);
-        setTimeout(function () {
-            $html.removeClass('loading').addClass('loaded');
-        }, 1200);
-        $('.vertical-layout').show();
-    });
-</script>
+                }
+            }, 1);
+            setTimeout(function() {
+                if (localStorage.getItem('light-layout-current-skin') == 'light-layout') {
+                    $html.addClass("light-layout");
+                    $(".main-menu").removeClass("menu-dark");
+                    $(".main-menu").addClass("menu-light");
+                    $(".header-navbar").addClass("navbar-light");
+                    console.log(localStorage.getItem('light-layout-current-skin'))
+                    $html.removeClass("dark-layout");
+                }
+            }, 1);
+            setTimeout(function() {
+                $html.removeClass('loading').addClass('loaded');
+            }, 1200);
+            $('.vertical-layout').show();
+        });
+    </script>
 
     <!-- BEGIN: Vendor JS-->
-    <script src="{{asset('public/dashborad/app-assets/vendors/js/vendors.min.js')}}"></script>
+    <script src="{{ asset('dashborad/app-assets/vendors/js/vendors.min.js') }}"></script>
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
-    <script src="{{asset('public/dashborad/app-assets/vendors/js/forms/validation/jquery.validate.min.js')}}"></script>
+    <script src="{{ asset('dashborad/app-assets/vendors/js/forms/validation/jquery.validate.min.js') }}"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
-    <script src="{{asset('public/dashborad/app-assets/js/core/app-menu.js')}}"></script>
-    <script src="{{asset('public/dashborad/app-assets/js/core/app.js')}}"></script>
+    <script src="{{ asset('dashborad/app-assets/js/core/app-menu.js') }}"></script>
+    <script src="{{ asset('dashborad/app-assets/js/core/app.js') }}"></script>
     <!-- END: Theme JS-->
 
     <!-- BEGIN: Page JS-->
-    <script src="{{asset('public/dashborad/app-assets/js/scripts/pages/page-auth-login.js')}}"></script>
+    <script src="{{ asset('dashborad/app-assets/js/scripts/pages/page-auth-login.js') }}"></script>
     <!-- END: Page JS-->
 
     <script>
